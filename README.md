@@ -24,3 +24,8 @@ A lightweight and responsive weather web application built with Vanilla JavaScri
    const CONFIG = {
      WEATHER_API_KEY: "YOUR_API_KEY_HERE"
    };
+## App Preview
+
+![Karachi Weather](images/preview1.JPG)
+![Tokyo Weather](images/preview2.JPG)
+![Faisalabad Weather](images/preview3.JPG)
