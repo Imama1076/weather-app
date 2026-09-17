@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-body">
+    <div class="container">
+        <div class="main-container1">
+         <input type="text" id="search-city" placeholder="Enter your city"
+         class="input-text"> 
+         <button class="input-btn ">
+            <img src="images/search-icon.png" height="20px" width="20px">
+         </button>  
+        </div>
+
+        <div class="search-conatiner" id="search">
+             <h1 class="search" id="search-city-container">Search City</h1>
+              <img src="images/search-icon3.png" height="100px" width="100px" class="img-search3">
+        </div>
+        <div id="container2">
+              <div class="main-container2">
+            <div class="show-date show">Now</div>
+            <img src="" class="display-img1 img-today"id="current-weather-img">
+            <div class="display-temp display-temp-info"id="current-weather-temp"> </div>
+            <div class="display-city display-temp-info city-name"></div>
+            <div class="display-temp-info " id="show-current-condition"></div>
+
+            
+        </div>
+        <div class="main-container3">
+            <div class="humidity">
+            <img src="images/humidity.png"  class="display-img">
+            <span class="display-humidity-percent"></span>
+            <br>
+            <span class="display-humidity display-info"style="position: relative;left:30px;">
+                Humidity
+            </span>   
+            </div>
+            <div class="wind-speed">
+            <img src="images/wind (1).png" class="display-img">
+            <span class="display-wind-percent"></span>
+            <br>
+            <span class="display-wind display-info" style="margin-left: 41px;">WindSpeed</span>   
+        </div>
+   <div class="container4">
+    <div class="day1 day">
+        <span id="temp0"></span>
+        <img src="" class="img-day"id="img-day0" height="40px" width="40px" >
+        <span class="week-day display_text"id="week-day0"></span>
+    </div>
+    <div class="day2 day">
+        <span id="temp8"></span>
+         <img src="" class="img-day" id="img-day8" height="40px" width="40px">
+         <span class="week-day" id="week-day8"></span>
+    </div>
+    <div class="day3 day">
+        <span id="temp16"></span>
+         <img src="" class="img-day"  id="img-day16" height="40px" width="40px">
+         <span class="week-day" id="week-day16"></span>
+    </div>
+    <div class="day4 day" >
+         <span id="temp24"></span>
+         <img src="" class="img-day" id="img-day24" height="40px" width="40px">
+         <span  class="week-day" id="week-day24"></span>
+    </div>
+    <div class="day5 day">
+         <span id="temp32"></span>
+         <img src="" class="img-day" height="40px" width="40px"  id="img-day32" >
+         <span class="week-day" id="week-day32"></span>
+    </div>
+   </div>  
+   </div>
+   </div>
+   <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+body{
+    margin: 0px;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+#main-body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("images/unknown2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container2{
+    display: none;
+}
+.container{
+   border-radius: 10%;
+    position: absolute;
+    left: 33%;
+    top: 15%;
+    height: 719px;
+    width: 561px;
+    backdrop-filter: blur(59px);
+    box-shadow: grey -0px 3px 20px;
+    border: #ffffff66 2px solid;
+}
+.main-container1{
+  height: 100px;
+  width: 557px;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+.input-text{
+    width: 388px;
+    height: 54px;
+    border: none;
+    outline: none;
+   padding-left: 22px;
+   font-size: 17px;
+   color: grey;
+   border-radius: 25px;
+}
+.input-btn{
+height: 53px;
+border: none;
+width: 54px;
+margin-top: 10px;
+background-color: white;
+border-radius: 25px;
+margin-left: 18px;
+}
+.search{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+.search-conatiner{
+    position: relative;
+    left: 133px;
+    top: 116px;
+}
+#container2{
+    display: none;
+}
+.img-search3{
+    margin-left: 90px;
+}
+.display-img{
+    height: 30px;
+    width: 30px;
+    margin-bottom: -5px;
+}
+.display-img1 {
+    height: 206px;
+    width: 208px;
+    position: relative;
+    left: 30%;
+    bottom: 30px;}
+.display-temp-info {
+    position: relative;
+    left: 36%;
+    font-size: 21px;
+    top: -50px;
+}
+.city-name{
+    text-align: center;
+    left: -16px;
+    margin-bottom: 28px;
+}
+.display-temp{
+    top: -46px;
+    left: 36%;
+    line-height: 90px;
+    font-size:55px ;
+}
+.main-container3{
+    display: flex;
+    justify-self: anchor-center;
+    flex-wrap: wrap;
+}
+.wind-speed {
+    margin-left: 218px;
+    position: relative;
+    bottom: 107px;
+    left: 21px;
+    font-size: 27px;
+}
+.humidity {
+    margin-right: 55px;
+    position: relative;
+    bottom: 107px;
+    right: -12px;
+    font-size: 27px;
+}
+.display-info{
+    font-size: 16px;
+}
+.next{
+    background-color: transparent;
+    border: none;
+    margin-top: 129px;
+}
+.container4 {
+    height: 171px;
+    width: 528px;
+    background-color: #00054c4d;
+    position: relative;
+    bottom: 105px;
+    left: 15px;
+    backdrop-filter: blur(20px);
+    box-shadow: grey -0px 3px 20px;
+    border: #ffffff66 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: anchor-center;
+    border-radius: 15px
+}
+.day {
+    height: 154px;
+    width: 121px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 17px;
+    justify-content: center;
+}
+.img-day {
+    height: 63px;
+    width: 68px;
+    margin-bottom: 7px;
+    margin-top: 2px;
+}
+.show{
+    margin-left: 55px;
+    font-size: 31px;
+    margin-top: 15px;
+}
+
+#show-current-condition{
+   margin-left: 20px;
+    font-size: 29px;
+    margin-bottom: 1px;
+    height: 40px;
+    bottom: 29px;
+    position: relative;
+    top: -64px;
+}
